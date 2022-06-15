@@ -18,7 +18,7 @@ char *_strcat(char *dest, char *src)
 		i++;
 	}
 
-	dest[i] = '\0';
+	dest[i] = '\0';Create a script that creates a dynamic library called liball.so from all the .c files that are in the current directory.
 
 	return (dest);
 }
