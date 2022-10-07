@@ -7,6 +7,7 @@
  * @value: value to search in
  * Return: index of the number
  */
+
 skiplist_t *linear_skip(skiplist_t *list, int value)
 {
 	skiplist_t *go;
